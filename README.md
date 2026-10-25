@@ -88,8 +88,8 @@ A research-oriented pipeline investigating how evidence-based, multi-method feat
 
 | Area | Tools |
 |---|---|
-| **Languages** | Python · C++ · SQL · Bash |
-| **Audio AI & signal processing** | Librosa · SciPy Signal · NumPy · STFT / Spectrograms · MFCCs · Welford Online Accumulation · Feature Extraction |
+| **Languages** | Python · C++ · SQL|
+| **Audio AI & signal processing** | Librosa · SciPy Signal · NumPy · STFT / Spectrograms · MFCCs · Feature Extraction |
 | **ML & deep learning** | PyTorch · TensorFlow · Scikit-learn · XGBoost · Random Forest · Autoencoders · Normalizing Flows · Statistical Learning |
 | **Grounded AI & local LLMs** | Ollama (`llama3.2:3b`) · Pydantic Schema Binding · Citation Guardrails · Deterministic Tool Augmentation · Air-Gapped Workflows |
 | **Deployment & tools** | Streamlit · Docker · Git · GitHub · Hugging Face · Linux |
