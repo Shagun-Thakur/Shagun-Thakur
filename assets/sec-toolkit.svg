@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 66" width="1000" height="66" role="img" aria-label="Technical Toolkit">
+<style>.z{stroke-dasharray:9 5;animation:d 1.2s linear infinite}@keyframes d{to{stroke-dashoffset:-28}}</style>
+<polygon points="12,6 397,6 383,60 0,60" fill="#FFCB05"/>
+<circle cx="34" cy="33" r="21" fill="#0D1117"/>
+<path d="M38,0 L4,56 L26,56 L16,100 L56,38 L32,38 Z" transform="translate(24,20.5) scale(0.26)" fill="#FFCB05" />
+<text x="68" y="44" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#0D1117">Technical Toolkit</text>
+<path class="z" d="M411,27 L421,39 L431,27 L441,39 L451,27 L461,39 L471,27 L481,39 L491,27 L501,39 L511,27 L521,39 L531,27 L541,39 L551,27 L561,39 L571,27 L581,39 L591,27 L601,39 L611,27 L621,39 L631,27 L641,39 L651,27 L661,39 L671,27 L681,39 L691,27 L701,39 L711,27 L721,39 L731,27 L741,39 L751,27 L761,39 L771,27 L781,39 L791,27 L801,39 L811,27 L821,39 L831,27 L841,39 L851,27 L861,39 L871,27 L881,39 L891,27 L901,39 L911,27 L921,39 L931,27 L941,39 L951,27 L961,39 L971,27 L981,39 L991,27" fill="none" stroke="#FFCB05" stroke-width="3" stroke-linejoin="bevel" stroke-linecap="round"/>
+</svg>

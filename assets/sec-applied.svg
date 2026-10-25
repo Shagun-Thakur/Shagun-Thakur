@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 66" width="1000" height="66" role="img" aria-label="Applied ML &amp; Systems">
+<style>.z{stroke-dasharray:9 5;animation:d 1.2s linear infinite}@keyframes d{to{stroke-dashoffset:-28}}</style>
+<polygon points="12,6 450,6 436,60 0,60" fill="#FFCB05"/>
+<circle cx="34" cy="33" r="21" fill="#0D1117"/>
+<path d="M38,0 L4,56 L26,56 L16,100 L56,38 L32,38 Z" transform="translate(24,20.5) scale(0.26)" fill="#FFCB05" />
+<text x="68" y="44" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#0D1117">Applied ML &amp; Systems</text>
+<path class="z" d="M464,27 L474,39 L484,27 L494,39 L504,27 L514,39 L524,27 L534,39 L544,27 L554,39 L564,27 L574,39 L584,27 L594,39 L604,27 L614,39 L624,27 L634,39 L644,27 L654,39 L664,27 L674,39 L684,27 L694,39 L704,27 L714,39 L724,27 L734,39 L744,27 L754,39 L764,27 L774,39 L784,27 L794,39 L804,27 L814,39 L824,27 L834,39 L844,27 L854,39 L864,27 L874,39 L884,27 L894,39 L904,27 L914,39 L924,27 L934,39 L944,27 L954,39 L964,27 L974,39 L984,27 L994,39" fill="none" stroke="#FFCB05" stroke-width="3" stroke-linejoin="bevel" stroke-linecap="round"/>
+</svg>
