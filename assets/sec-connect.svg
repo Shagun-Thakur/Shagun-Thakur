@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 66" width="1000" height="66" role="img" aria-label="Let's Connect">
-<style>.z{stroke-dasharray:9 5;animation:d 1.2s linear infinite}@keyframes d{to{stroke-dashoffset:-28}}</style>
-<polygon points="12,6 327,6 313,60 0,60" fill="#FFCB05"/>
-<circle cx="34" cy="33" r="21" fill="#0D1117"/>
-<path d="M38,0 L4,56 L26,56 L16,100 L56,38 L32,38 Z" transform="translate(24,20.5) scale(0.26)" fill="#FFCB05" />
-<text x="68" y="44" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#0D1117">Let's Connect</text>
-<path class="z" d="M341,27 L351,39 L361,27 L371,39 L381,27 L391,39 L401,27 L411,39 L421,27 L431,39 L441,27 L451,39 L461,27 L471,39 L481,27 L491,39 L501,27 L511,39 L521,27 L531,39 L541,27 L551,39 L561,27 L571,39 L581,27 L591,39 L601,27 L611,39 L621,27 L631,39 L641,27 L651,39 L661,27 L671,39 L681,27 L691,39 L701,27 L711,39 L721,27 L731,39 L741,27 L751,39 L761,27 L771,39 L781,27 L791,39 L801,27 L811,39 L821,27 L831,39 L841,27 L851,39 L861,27 L871,39 L881,27 L891,39 L901,27 L911,39 L921,27 L931,39 L941,27 L951,39 L961,27 L971,39 L981,27 L991,39" fill="none" stroke="#FFCB05" stroke-width="3" stroke-linejoin="bevel" stroke-linecap="round"/>
-</svg>

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 66" width="1000" height="66" role="img" aria-label="Current Research &amp; Focus">
-<style>.z{stroke-dasharray:9 5;animation:d 1.2s linear infinite}@keyframes d{to{stroke-dashoffset:-28}}</style>
-<polygon points="12,6 520,6 506,60 0,60" fill="#FFCB05"/>
-<circle cx="34" cy="33" r="21" fill="#0D1117"/>
-<path d="M38,0 L4,56 L26,56 L16,100 L56,38 L32,38 Z" transform="translate(24,20.5) scale(0.26)" fill="#FFCB05" />
-<text x="68" y="44" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#0D1117">Current Research &amp; Focus</text>
-<path class="z" d="M534,27 L544,39 L554,27 L564,39 L574,27 L584,39 L594,27 L604,39 L614,27 L624,39 L634,27 L644,39 L654,27 L664,39 L674,27 L684,39 L694,27 L704,39 L714,27 L724,39 L734,27 L744,39 L754,27 L764,39 L774,27 L784,39 L794,27 L804,39 L814,27 L824,39 L834,27 L844,39 L854,27 L864,39 L874,27 L884,39 L894,27 L904,39 L914,27 L924,39 L934,27 L944,39 L954,27 L964,39 L974,27 L984,39 L994,27" fill="none" stroke="#FFCB05" stroke-width="3" stroke-linejoin="bevel" stroke-linecap="round"/>
-</svg>
