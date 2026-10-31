@@ -98,4 +98,4 @@ A research-oriented pipeline investigating how evidence-based, multi-method feat
 
 I'm always glad to discuss Machine Learning, Audio AI, signal processing, and verifiable intelligent systems.
 
-[LinkedIn](https://www.linkedin.com/in/shagun-thakur-8509b7281) · [Email](mailto:12shagun2005@gmail.com) · [GitHub](https://github.com/Shagun-Thakur)
+[LinkedIn](https://www.linkedin.com/in/shagun-thakur-8509b7281) · [Email](mailto:thakurshagun412@gmail.com) · [GitHub](https://github.com/Shagun-Thakur)
