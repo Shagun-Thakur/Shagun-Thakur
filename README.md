@@ -8,7 +8,7 @@
   <img src="assets/header.svg" width="100%" alt="Shagun Thakur: Machine Learning, Audio AI, Intelligent Systems" />
   <br/>
   <a href="https://www.linkedin.com/in/shagun-thakur-8509b7281"><img src="https://img.shields.io/badge/LinkedIn-14284B?style=flat-square&logoColor=white&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:12shagun2005@gmail.com"><img src="https://img.shields.io/badge/Email-14284B?style=flat-square&logoColor=white&logo=gmail" alt="Email" /></a>
+  <a href="mailto:thakurshagun412@gmail.com"><img src="https://img.shields.io/badge/Email-14284B?style=flat-square&logoColor=white&logo=gmail" alt="Email" /></a>
   <a href="https://auralq-r77uc2bkz7wgu7yifqkduu.streamlit.app/"><img src="https://img.shields.io/badge/AuralQ%20Live%20Demo-2F6FAE?style=flat-square&logoColor=white" alt="AuralQ Live Demo" /></a>
   <a href="https://glycoscan-k7jecpfxz98wveubzmfayp.streamlit.app/"><img src="https://img.shields.io/badge/GlycoScan%20Live%20Demo-2F6FAE?style=flat-square&logoColor=white" alt="GlycoScan Live Demo" /></a>
 </div>
@@ -108,8 +108,8 @@ Contributed to the voice-assisted form verification Chrome extension by resolvin
 
 | Area | Tools |
 |---|---|
-| **Languages** | Python · C++ · SQL · Bash |
-| **Audio & signal processing** | Librosa · SciPy Signal · NumPy · STFT / Spectrograms · MFCCs · Welford Online Accumulation |
+| **Languages** | Python · C++ · SQL |
+| **Audio AI & signal processing** | Librosa · SciPy Signal · NumPy · STFT / Spectrograms · MFCCs · Feature Extraction |
 | **ML & deep learning** | PyTorch · TensorFlow · Scikit-learn · XGBoost · Random Forest · Autoencoders · Normalizing Flows · Statistical Learning |
 | **Reinforcement learning** | Gymnasium · Stable-Baselines3 (PPO, DQN) · Custom Environment Design |
 | **Grounded AI & local LLMs** | Ollama (`llama3.2:3b`) · Pydantic Schema Binding · Citation Guardrails · Deterministic Tool Augmentation · Air-Gapped Workflows |
@@ -120,4 +120,4 @@ Contributed to the voice-assisted form verification Chrome extension by resolvin
 
 I'm always glad to discuss Machine Learning, Audio AI, signal processing, and verifiable intelligent systems.
 
-[LinkedIn](https://www.linkedin.com/in/shagun-thakur-8509b7281) · [Email](mailto:12shagun2005@gmail.com) · [GitHub](https://github.com/Shagun-Thakur)
+[LinkedIn](https://www.linkedin.com/in/shagun-thakur-8509b7281) · [Email](mailto:thakurshagun412@gmail.com) · [GitHub](https://github.com/Shagun-Thakur)
