@@ -32,14 +32,6 @@ How do signal representations, learning methods, and deterministic guardrails in
 - **Unsupervised anomaly detection:** representation learning, generative modeling, and multi-method feature extraction on complex industrial soundscapes.
 - **Resource-constrained AI:** high-efficiency architectures that run locally on consumer-grade hardware (sub-4 GB VRAM / 60 FPS edge webcams).
 
-### Field research: Project Tarini (precipitation nowcasting)
-
-<img src="assets/card-tarini.svg" width="100%" alt="Project Tarini" />
-
-In flood-vulnerable regions such as the Brahmaputra basin in Assam, extreme monsoon downpours and sudden cloudbursts can trigger catastrophic flash floods within hours, putting communities, agriculture, and infrastructure at severe risk.
-
-Traditional numerical weather forecasting often lacks the rapid, localized granularity that emergency response requires. **Project Tarini** is an ongoing research initiative investigating spatio-temporal precipitation nowcasting: how atmospheric and satellite sensory data can be used to forecast extreme rainfall hours in advance, providing lead time when every minute matters.
-
 ## Flagship Projects
 
 <a href="https://github.com/Shagun-Thakur/AuralQ"><img src="assets/card-auralq.svg" width="100%" alt="AuralQ" /></a>
