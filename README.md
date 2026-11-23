@@ -15,13 +15,14 @@
 
 ## About
 
-I'm a Computer Science undergraduate who builds machine learning systems for **real-world physical signals**: sound, vibration and sensor time series. I care about two things: making results **verifiable** (grounded outputs, fixed seeds, statistical tests) and reporting them **honestly**, including the cases where a simple baseline wins.
+I'm a Computer Science undergraduate who builds machine learning systems for **real-world physical signals**: sound, vibration, video streams, and sensor time series. I care about two things: making results **verifiable** (grounded outputs, fixed seeds, statistical tests) and reporting them **honestly**, including the cases where a simple baseline wins.
 
 **What I work on**
 - **Audio AI:** unsupervised anomaly detection, emergency-sound detection, speech pipelines (STT/TTS)
 - **Grounded AI:** pairing local LLMs with deterministic DSP and citation guardrails to cut numeric hallucinations
-- **Evaluation:** multi-seed protocols, paired significance tests, reproducibility checks
-- **Efficient AI:** systems that run locally on consumer hardware (under 4 GB VRAM)
+- **Real-Time Edge Vision & Kinematics:** low-latency motion tracking on commodity hardware using projective geometry
+- **Evaluation & Reproducibility:** multi-seed protocols, paired significance tests, reproducibility checks
+- **Efficient Systems:** architectures that run locally on consumer hardware (under 4 GB VRAM / standard webcams)
 
 ## Current Research
 
@@ -29,7 +30,7 @@ How do signal representations, learning methods, and deterministic guardrails in
 
 - **Audio AI & acoustic grounding:** eliminating acoustic hallucinations by pairing local LLMs with closed-form DSP algorithms behind strict citation guardrails.
 - **Unsupervised anomaly detection:** representation learning, generative modeling, and multi-method feature extraction on complex industrial soundscapes.
-- **Resource-constrained AI:** high-efficiency architectures that run locally on consumer-grade hardware (sub-4 GB VRAM).
+- **Resource-constrained AI:** high-efficiency architectures that run locally on consumer-grade hardware (sub-4 GB VRAM / 60 FPS edge webcams).
 
 ### Field research: Project Tarini (precipitation nowcasting)
 
@@ -79,7 +80,18 @@ The honest finding: PPO beats the rule-based heuristics but is statistically ind
 
 [Repository](https://github.com/Shagun-Thakur/smart-home-openenv)
 
-## Collaboration
+## Collaboration & Open Source
+
+<a href="https://github.com/AnonAjay/Titans-Arcade"><img src="assets/card-titans.svg" width="100%" alt="Titans Arcade" /></a>
+
+Architected the Computer Vision, Projective Geometry, and Kinematics stack for an offline, 60 FPS motion-tracking physical arcade running on standard laptop webcams without cloud dependencies (replacing \$15k+ motion rigs; awarded **1st Place at Tech-Fest**):
+- **Projective Floor Geometry:** Formulated a Planar Homography matrix ($H \in \mathbb{R}^{3 \times 3}$) with a strict $Z=0$ ground-plane constraint to linearize foreshortening and map image pixels $(u, v)$ directly to physical venue floor coordinates $(X_w, Y_w)$, accompanied by an interactive 15-second 4-point venue calibration UI (`tools/calibrate_floor.py`).
+- **Kinematics & Invariant Posing:** Built torso-normalized jump physics ($L_{\text{torso}} = \|P_{\text{shoulder}} - P_{\text{hip}}\|$) that freezes ground footprints mid-air to prevent spatial drift, alongside a posture engine comparing interior joint angles via vector dot products across 8 core joints—achieving complete scale, height, and distance invariance.
+- **Asynchronous 60 FPS Pipeline:** Decoupled MediaPipe neural pose inference (25–35 ms / ~30 FPS) into background daemon threads with thread-safe locks, maintaining rock-solid 60 FPS Pygame rendering with dynamic neon HUD tolerance feedback at $<15\text{ ms}$ input latency across hundreds of live players.
+
+[Repository](https://github.com/AnonAjay/Titans-Arcade)
+
+<br/>
 
 <a href="https://github.com/Anjalisahni24/ResQ_Audio_ANNapp"><img src="assets/card-resq.svg" width="100%" alt="ResQ" /></a>
 
@@ -108,16 +120,17 @@ Contributed to the voice-assisted form verification Chrome extension by resolvin
 
 | Area | Tools |
 |---|---|
-| **Languages** | Python · C++ · SQL |
-| **Audio AI & signal processing** | Librosa · SciPy Signal · NumPy · STFT / Spectrograms · MFCCs · Feature Extraction |
-| **ML & deep learning** | PyTorch · TensorFlow · Scikit-learn · XGBoost · Random Forest · Autoencoders · Normalizing Flows · Statistical Learning |
-| **Reinforcement learning** | Gymnasium · Stable-Baselines3 (PPO, DQN) · Custom Environment Design |
-| **Grounded AI & local LLMs** | Ollama (`llama3.2:3b`) · Pydantic Schema Binding · Citation Guardrails · Deterministic Tool Augmentation · Air-Gapped Workflows |
-| **Speech & integration** | STT/TTS APIs · FastAPI · Chrome Extension Development & Debugging |
-| **Deployment & workflow** | Streamlit · Docker · Hugging Face Spaces · Git · Linux · pytest |
+| **Languages** | Python · C++ · SQL · Bash |
+| **Audio AI & Signal Processing** | Librosa · SciPy Signal · NumPy · STFT / Spectrograms · MFCCs · Feature Extraction · Welford Online Accumulation |
+| **Computer Vision & Kinematics** | OpenCV · MediaPipe · Planar Homography ($3 \times 3$) · Vector Dot-Product Kinematics · Pygame · Multithreaded Daemons |
+| **ML & Deep Learning** | PyTorch · TensorFlow · Scikit-learn · XGBoost · Random Forest · Autoencoders · Normalizing Flows · Statistical Learning |
+| **Reinforcement Learning** | Gymnasium · Stable-Baselines3 (PPO, DQN) · Custom Environment Design |
+| **Grounded AI & Local LLMs** | Ollama (`llama3.2:3b`) · Pydantic Schema Binding · Citation Guardrails · Deterministic Tool Augmentation · Air-Gapped Workflows |
+| **Speech & Integration** | STT/TTS APIs · FastAPI · Chrome Extension Development & Debugging |
+| **Deployment & Workflow** | Streamlit · Docker · Hugging Face Spaces · Git · Linux · pytest |
 
 ## Let's Connect
 
-I'm always glad to discuss Machine Learning, Audio AI, signal processing, and verifiable intelligent systems.
+I'm always glad to discuss Machine Learning, Audio AI, real-time computer vision, and verifiable intelligent systems.
 
 [LinkedIn](https://www.linkedin.com/in/shagun-thakur-8509b7281) · [Email](mailto:thakurshagun412@gmail.com) · [GitHub](https://github.com/Shagun-Thakur)
