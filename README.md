@@ -17,7 +17,7 @@
 
 Final-year Computer Science undergraduate focused on applied machine learning for real-world physical and sensor signals—especially audio, acoustics, and vibration. I build verifiable systems pairing machine learning with deterministic signal processing, multi-seed statistical evaluation, and edge deployment under strict compute budgets (such as 4 GB consumer GPUs).
 
-**Open to:** research internships (Jan–Jun 2027) and ML/AI roles at startups, including new domains where the problem is hard.
+**Open to:** research internships (Jan–Jun 2027) and ML/AI roles at startups, including new domains.
 
 ## Flagship Projects
 
